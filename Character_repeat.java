@@ -8,6 +8,19 @@ public class Character_repeat {
     }
 
     public void metodo1(){
+        char[] temp_cadena = this.cadena.toCharArray();
+        int cont = 0;
+        for (char c: temp_cadena
+             ) {
+            if (c==this.caracter){
+                cont++;
+            }
+        }
+        String message = String.format("El caracter %s se repite %d veces",this.caracter,cont);
+        System.out.println(message);
+    }
+
+    public void metodo2(){
 
     }
 }

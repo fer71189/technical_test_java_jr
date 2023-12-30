@@ -16,6 +16,6 @@ public class Invertir_cadena {
             solucion.append(temp_cadena[i]);
             //System.out.print(temp_cadena[i]);
         }
-        System.out.print(solucion);
+        System.out.println(solucion);
     }
 }
